@@ -1,3 +1,5 @@
+import 'dart:collection';
+
 main() {
   // SET REPRESENT A COLLECTION OF OBJECTS IN WHICH EACH OBJECT CAN OCCUR ONLY ONCE.
   // Identifiers = Set()
@@ -26,7 +28,7 @@ main() {
   // QUEUE IS A COLLECTION THAT CAN BE MANIPULATED AT BOTH ENDS
   // Identifier = Queue()
 
-  Queue queue = Queue();
+  Queue queue =  Queue();
   print('Default implementation: ${queue.runtimeType}');
   queue.add(23);
   queue.add(34);
